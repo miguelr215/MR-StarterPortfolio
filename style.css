@@ -1,0 +1,225 @@
+/****** MIGUEL'S PORTFOLIO ******/
+
+/*  
+Google Fonts
+font-family: 'Quicksand', sans-serif;  Light 300 & Semi-Bold 600
+font-family: 'Sriracha', cursive;  Regular 400
+*/
+
+/***************BASE SETUP***************/
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+}
+
+.row {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(images/network.png);
+    height: 500px;
+}
+
+p,
+li {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+/***************NAVIGATION LINKS***************/
+a:link {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 24px;
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 24px;
+    color: #045724;
+}
+
+a:hover {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #4A00E0;
+}
+
+a:active {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 24px;
+    color: #9c08c9;
+}
+
+#top-nav {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+/***************HEADER***************/
+.text-box1 {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    width: 450px;
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Sriracha', cursive, Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+
+.text-box2 {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    width: 450px;
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Sriracha', cursive, Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 370px;
+    left: 800px;
+}
+
+.green-text {
+    color: limegreen;
+}
+
+.red-text {
+    color: crimson;
+}
+
+/***************SECTIONS***************/
+.section-header {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Sriracha', cursive, Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.title-hr {
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+/***************INTRO SECTION***************/
+.developer-pic {
+    width: 400px;
+    /* float: left; */
+    text-align: center;
+    padding: 30px;
+    display: inline-block;
+}
+
+.developer-pic > img {
+    border-radius: 50%;
+}
+
+.developer-intro {
+    width: 600px;
+    /* float: right; */
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+    background-color: rgba(3, 124, 30, 0.5);
+    color: #ffffff;
+    display: inline-block;
+}
+
+/***************ABOUT ME SECTION***************/
+#about-section-body {
+    height: 700px;
+    background-image: linear-gradient(to right, rgba(141, 45, 226, 0.2), rgba(75, 0, 224, 0.8));
+}
+
+.about-container {
+    padding: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about-container ul li {
+    list-style: none;
+}
+
+.movie-list {
+    width: 250px;
+    margin: 0 auto;
+    border: 2px solid #000000;
+    font-size: 18px;
+    padding: 7px;
+}
+
+/***************CONTACT SECTION***************/
+.contact-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-container > ul {
+    list-style: none;
+    font-size: 32px;
+}
+
+.contact-container ion-icon {
+    margin-right: 7px;
+    font-size: 125%;
+}
+
+.contact-container ul li {
+    margin-bottom: 15px;
+}
+
+/***************FOOTER***************/
+footer {
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/geometric.jpg);
+    padding: 20px;
+}
+
+.footer-nav {
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.footer-nav a {
+    display: block;
+    margin-top: 10px;
+}
+
+.footer-nav a:link {
+    color: #ffffff;
+}
+
+.footer-nav a:visited {
+    color: #ffff00;
+}
