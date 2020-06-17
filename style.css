@@ -129,12 +129,15 @@ a:active {
 }
 
 /***************INTRO SECTION***************/
+.intro-container {
+    display: flex;
+}
+
 .developer-pic {
     width: 400px;
-    /* float: left; */
     text-align: center;
     padding: 30px;
-    display: inline-block;
+    flex: 1;
 }
 
 .developer-pic > img {
@@ -142,14 +145,17 @@ a:active {
 }
 
 .developer-intro {
-    width: 600px;
-    /* float: right; */
+    width: 300px;
     text-align: center;
-    padding: 20px;
-    margin: 50px;
-    background-color: rgba(3, 124, 30, 0.5);
+    padding: 50px;
+    margin: 20px;
+    background-image: radial-gradient(#43C6AC, #191654);
     color: #ffffff;
-    display: inline-block;
+    flex: 2;
+}
+
+.developer-intro p {
+    font-size: 24px;
 }
 
 /***************ABOUT ME SECTION***************/
